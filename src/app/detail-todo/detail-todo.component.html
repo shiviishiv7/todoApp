@@ -1,0 +1,22 @@
+<div class="wrapper">
+    <h3>Detail Todo</h3>
+    <div class="name">
+        <label for="name">Name</label>
+        <input type="text" [(ngModel)]="todo.name" readonly>
+    </div>
+
+    <div class="description">
+        <label for="description">Description</label>
+        <input type="text" [(ngModel)]="todo.description" readonly>
+    </div>
+    <div class="status">
+        <label for="status">Status</label>
+        <input type="text" [(ngModel)]="todo.status" readonly>
+    </div>
+    <div class="action">
+        <button (click)="updateTodo()">Update</button>
+        <button (click)="completedTodo()">Mark Completed</button>
+
+    </div>
+
+</div>

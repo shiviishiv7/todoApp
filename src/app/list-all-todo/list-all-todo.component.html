@@ -1,0 +1,25 @@
+<div class="wrapper">
+  <div class="item1">
+
+    <button (click)="createTodo()">CreateTodo</button>
+  </div>
+  <table>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Status</th>
+      <th>Create On</th>
+    </tr>
+    <tr class="item2" *ngFor="let todo of todos">
+      <td>{{todo.id}}</td>
+      <td>{{todo.name}}</td>
+      <td>{{todo.description}}</td>
+      <td>{{todo.status}}</td>
+      <td>{{todo.create_on}}</td>
+      <button (click)="update(todo.id)">Update</button>
+      <button (click)="detail(todo.id)">Detail</button>
+      <button (click)="delete(todo.id)">Delete</button>
+    </tr>
+  </table>
+</div>

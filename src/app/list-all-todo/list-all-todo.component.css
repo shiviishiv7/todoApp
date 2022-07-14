@@ -1,0 +1,33 @@
+table {
+    width: 80%;
+    margin: auto;
+
+}
+
+.item2 {
+    color: #fff;
+    margin: 16px;
+}
+
+.item2 td {
+    padding: 10px;
+}
+
+
+
+.item1 {
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    padding: 50px 100px 50px 0;
+}
+
+button {
+    height: 34px;
+    width: 120px;
+    font-weight: bold;
+    color: #fff;
+    background: blueviolet;
+    border: none;
+    border-radius: 12px;
+}

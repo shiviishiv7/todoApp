@@ -1,0 +1,34 @@
+.wrapper {
+    width: 30%;
+    margin: 60px auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 50px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+}
+
+input {
+    height: 34px;
+    border: none;
+    padding: 0 25px;
+}
+
+button {
+    float: right;
+    height: 34px;
+    width: 160px;
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: #fff;
+    background: blueviolet;
+    border: none;
+    border-radius: 12px;
+}
+
+.wrapper .name,
+.description {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    align-items: center;
+}
